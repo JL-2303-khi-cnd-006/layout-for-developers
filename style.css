@@ -4,11 +4,18 @@
 }
 
 .navBar{
-    background-color: #F7DBA7;
-    padding: 10px 20px;
+    background-color: #271F30;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left span{
+    margin-left: 5px;
 }
 
 .right{
@@ -16,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
 }
 
 .content{
@@ -23,7 +31,7 @@
     justify-content: space-around;
     padding: 10px 20px;
     color: #fff;
-    background-color: #1E2D2F;
+    background-color: #8b6949;
 }
 
 
@@ -33,6 +41,9 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
+    border: 1px solid;
+    box-shadow: 5px 10px wheat;
+    margin: 20px;
 }
 .center-content{
     width: 50%;
@@ -44,9 +55,11 @@
 }
 
 .card{
+    color: #283845;
+    font-size: 20px;
     display: flex;
     gap: 10px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .icon-div{
